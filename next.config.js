@@ -3,8 +3,8 @@
  //     enabled: process.env.ANALYZE === 'true'
 //    })
 
-//    module.exports = withBundleAnalyzer({
- //     staticPageGenerationTimeout: 300,
+    module.exports = withBundleAnalyzer({
+      staticPageGenerationTimeout: 300,
       images: {
         domains: [
           'www.notion.so',
@@ -19,4 +19,4 @@
    //     dangerouslyAllowSVG: true,
    //     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
       }
-//    })
+    })
